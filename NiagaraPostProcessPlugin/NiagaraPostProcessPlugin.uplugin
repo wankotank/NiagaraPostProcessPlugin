@@ -1,0 +1,32 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Niagara PostProcess Plugin",
+	"Description" : "No description.",
+	"Category" : "Examples",
+	"CreatedBy" : "Takashi Suzuki @ Epic Games Japan",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "NiagaraPostProcess",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	],
+	"Plugins" :
+	[
+		{
+			"Name" : "Niagara",
+			"Enabled": true
+		}
+	]
+}
